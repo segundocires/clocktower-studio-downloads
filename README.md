@@ -17,7 +17,7 @@ Los archivos de descarga mantienen `Clocktower-Studio` en el nombre por compatib
 1. Abrir el estudio en Windows y crear una cuenta en **Cuentas**.
 2. Seleccionar esa cuenta para trabajar en su biblioteca independiente. El administrador puede gestionar todas.
 3. Para acceso desde otras redes, activar Acceso remoto y completar la vinculación de Tailscale en la PC. Después se publica la dirección HTTPS verificada mediante `studio.json`; no contiene contraseñas ni tokens.
-4. En Android 0.2, entrar con usuario y contraseña. La sesión se conserva; no hace falta escanear QR. El teléfono puede usar Wi-Fi o datos móviles.
+4. En Android 0.2.2, entrar con usuario y contraseña. La sesión se conserva; no hace falta escanear QR. El teléfono puede usar Wi-Fi o datos móviles.
 
 La PC debe permanecer encendida, conectada y con el estudio abierto. El gateway público sólo admite cuentas; la administración permanece local. `studio.json` todavía devuelve 404, así que la app indica que el estudio no está disponible y ofrece configuración avanzada. Falta completar la vinculación y verificar Internet.
 
