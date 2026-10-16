@@ -2,21 +2,21 @@
 
 Estudio audiovisual para Windows y Android. Este repositorio distribuye instaladores y metadatos; no contiene proyectos, fotos, credenciales ni la clave privada de firma.
 
-**Android 0.3.0 está publicado.** La pestaña **Videos** integra el estudio de cortos en la app: idea, guion, fichas de personaje y escenario, storyboard, generación con movimiento y audio, retomas, reproducción y descarga del MP4. Usa la sesión existente. Conserva Proyectos, Rodaje, Biblioteca y Trabajos.
+**Android 0.4.0 está publicado.** La pestaña **Estudio** unifica imágenes propias, character sheets, storyboard y video. Podés subir fotos o dibujos, usar fichas listas o generar fichas desde tus imágenes, y elegir una imagen propia como inicio de cada plano. La Biblioteca ofrece **Usar en estudio** y comparte el proyecto elegido. La plantilla Guion → Elementos → Storyboard → Producción muestra las conexiones reales entre entradas y tomas.
 
-Las nueve descargas de la entrega se verificaron sin autenticación contra tamaño y SHA-256. El APK conserva package y firma, usa `versionCode=5`, cuatro arquitecturas y Android 7/API24 como mínimo. **Los instaladores Windows siguen en 0.2.2**, con los mismos archivos y hashes.
+Las nueve descargas de la entrega se verificaron sin autenticación contra tamaño y SHA-256. El APK conserva package y firma, usa `versionCode=6`, cuatro arquitecturas y Android 7/API24 como mínimo. **Los instaladores Windows siguen en 0.2.2**, con los mismos archivos y hashes.
 
-- [APK Android 0.3.0](https://github.com/segundocires/clocktower-studio-downloads/releases/latest/download/Clocktower-Studio.apk)
+- [APK Android 0.4.0](https://github.com/segundocires/clocktower-studio-downloads/releases/latest/download/Clocktower-Studio.apk)
 - [Instalador Windows 0.2.2](https://github.com/segundocires/clocktower-studio-downloads/releases/latest/download/Clocktower-Studio-Windows-Setup.exe)
 - [Paquete MSI Windows 0.2.2](https://github.com/segundocires/clocktower-studio-downloads/releases/latest/download/Clocktower-Studio-Windows-x64.msi)
-- [Notas y hashes de la entrega](https://github.com/segundocires/clocktower-studio-downloads/releases/tag/v0.3.0)
+- [Notas y hashes de la entrega](https://github.com/segundocires/clocktower-studio-downloads/releases/tag/v0.4.0)
 
 Los archivos de descarga mantienen `Clocktower-Studio` en el nombre por compatibilidad; la aplicación instalada se llama **ClockWorkStudio**. Windows necesita Windows 10/11 x64 y WebView2.
 
 ## Crear y ver videos desde Android
 
 1. Actualizar la APK sobre la versión anterior, sin desinstalar, para conservar la sesión y los borradores.
-2. Entrar con la cuenta habitual y abrir **Videos**.
+2. Entrar con la cuenta habitual y abrir **Estudio**.
 3. Elegir un proyecto y crear una película: preparar guion, revisar fichas y storyboard, y crear la película con audio. El recorrido actual genera cortos de 15 segundos.
 4. Reproducir el resultado o tocar **Descargar MP4** para guardarlo en una carpeta del teléfono o compartirlo. Guardar en carpeta admite hasta 128 MiB; los archivos mayores pueden compartirse.
 
@@ -38,6 +38,6 @@ Cada APK se verifica por tamaño, SHA-256, package, versión mayor y firma igual
 
 ## Verificación
 
-Pasaron la comprobación de tipos, 43 pruebas móviles, 10 del puente y 68 del servidor. La APK Release incluye su bundle JavaScript y se verificó con la misma firma de 0.2.2. En navegador con ancho de celular se comprobaron el acceso integrado, creación y cancelación, restauración, reproducción de 15 segundos con audio, descarga por el puente y cierre de sesión.
+Pasaron la comprobación de tipos, 46 pruebas móviles, 19 del puente y 100 del servidor. La APK Release incluye su bundle JavaScript y se verificó con la misma firma de 0.2.2. En navegador con ancho de celular se comprobaron el acceso integrado, creación y cancelación, restauración, reproducción de 15 segundos con audio, descarga por el puente y cierre de sesión.
 
 Las pruebas del selector de carpeta y de compartir usan APIs nativas simuladas. La instalación, actualización y revisión completa en un teléfono Android físico siguen pendientes.
